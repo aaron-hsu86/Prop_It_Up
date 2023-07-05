@@ -3,10 +3,7 @@ import '../App.css';
 
 const PersonCard = (props) => {
     
-    const {first_name} = props
-    const {last_name} = props
-    const {age} = props
-    const {hair_color} = props
+    const {first_name, last_name, age, hair_color} = props
     
     return (
         <>
